@@ -1,65 +1,61 @@
-# YouTube-Video-Summarizer-and-Q-A-Chatbot
-YouTube Video Summarizer and Q&A Chatbot
-This project is an interactive tool designed to extract, summarize, and provide Q&A capabilities for YouTube video content. It uses state-of-the-art NLP models to process video transcripts and offers a user-friendly interface via Gradio, making it ideal for educational and research purposes.
+# YouTube Video Summarizer and Q&A Chatbot  
 
-Table of Contents
-Features
-Technologies Used
-Setup and Usage
-How It Works
-File Structure
-License
-Features
-Summarization:
+This project is an interactive tool designed to extract, summarize, and provide Q&A capabilities for YouTube video content. It uses **state-of-the-art NLP models** to process video transcripts and offers a user-friendly interface via **Gradio**, making it ideal for educational and research purposes.  
 
-Extracts transcripts from YouTube videos.
-Summarizes video content into concise, easy-to-read text.
-Q&A Capability:
+---
 
-Ask questions about the summarized content and get context-aware answers.
-Interactive Interface:
+## Table of Contents  
+- [Features](#features)  
+- [Technologies Used](#technologies-used)  
+- [Setup and Usage](#setup-and-usage)  
+- [How It Works](#how-it-works)  
+- [File Structure](#file-structure)  
+- [License](#license)  
 
-A Gradio-based UI for seamless interaction and exploration.
-Technologies Used
-Libraries
-Gradio: For building the interactive user interface.
-YouTube Transcript API: To fetch video transcripts directly from YouTube.
-Transformers: For utilizing pre-trained NLP models:
-facebook/bart-large-cnn for summarization.
-bert-large-uncased-whole-word-masking-finetuned-squad for Q&A.
-Models
-BART: A Transformer-based architecture specialized in summarization tasks.
-BERT: A state-of-the-art NLP model fine-tuned for Q&A using the SQuAD dataset.
-Setup and Usage
-This project is designed to be run on Google Colab for ease of setup and access to GPU resources. Follow the steps below:
+---
 
-Steps
-Open Google Colab:
+## Features  
 
-Go to Google Colab.
-Upload the Script:
-Install Dependencies:
+1. **Summarization**:  
+   - Extracts transcripts from YouTube videos.  
+   - Summarizes video content into concise, easy-to-read text.  
 
-!pip install gradio youtube-transcript-api transformers  
-Run the Script:
-Execute the script with:
+2. **Q&A Capability**:  
+   - Ask questions about the summarized content and get context-aware answers.  
 
-python
-Copy code
-!python app.py  
-Launch Gradio Interface:
-The Gradio interface will provide a sharable link to access the application.
+3. **Interactive Interface**:  
+   - A **Gradio-based UI** for seamless interaction and exploration.  
 
-How It Works
-Transcript Extraction:
+---
 
-The YouTube Transcript API fetches captions from YouTube videos.
-Summarization:
+## Technologies Used  
 
-The video transcript is processed using the facebook/bart-large-cnn model to generate a detailed summary.
-Question Answering:
+### Libraries  
+- **Gradio**: For building the interactive user interface.  
+- **YouTube Transcript API**: To fetch video transcripts directly from YouTube.  
+- **Transformers**: For utilizing pre-trained NLP models:  
+  - `facebook/bart-large-cnn` for summarization.  
+  - `bert-large-uncased-whole-word-masking-finetuned-squad` for Q&A.  
 
-A BERT-based model answers questions based on the transcript and summary context.
-Interactive UI:
+### Models  
+- **BART**: A Transformer-based architecture specialized in summarization tasks.  
+- **BERT**: A state-of-the-art NLP model fine-tuned for Q&A using the SQuAD dataset.  
 
-Gradio facilitates easy interaction with the application.
+---
+
+## Setup and Usage  
+
+This project is designed to be run on **Google Colab** for ease of setup and access to GPU resources. Follow the steps below:  
+
+### Steps  
+
+1. **Open Google Colab**:  
+   - Go to [Google Colab](https://colab.research.google.com/).  
+
+2. **Upload the Script**:  
+   - Upload the `app.py` file to your Colab environment.  
+
+3. **Install Dependencies**:  
+   Run the following command to install the required libraries:  
+   ```python  
+   !pip install gradio youtube-transcript-api transformers  

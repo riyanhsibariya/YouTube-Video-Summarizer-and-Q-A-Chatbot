@@ -9,8 +9,7 @@ This project is an AI-powered chatbot designed to process YouTube videos, genera
 - [Technologies Used](#technologies-used)  
 - [Setup and Usage](#setup-and-usage)  
 - [How It Works](#how-it-works)  
-- [File Structure](#file-structure)  
-- [License](#license)  
+
 
 ---
 

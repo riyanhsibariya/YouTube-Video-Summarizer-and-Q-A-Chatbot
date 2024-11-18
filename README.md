@@ -1,6 +1,6 @@
 # YouTube Video Summarizer and Q&A Chatbot  
 
-This project is an AI-powered chatbot designed to process YouTube videos, generate detailed summaries, and enable users to interactively ask questions about the content. It utilizes advanced Natural Language Processing (NLP) models and libraries to deliver concise and informative outputs. Running entirely in Google Colab, this project ensures accessibility and easy usage without requiring extensive local setup.z.  
+This project is an AI-powered chatbot designed to process YouTube videos, generate detailed summaries, and enable users to interactively ask questions about the content. It utilizes advanced Natural Language Processing (NLP) models and libraries to deliver concise and informative outputs. Running entirely in Google Colab, this project ensures accessibility and easy usage without requiring extensive local setup. 
 
 ---
 
